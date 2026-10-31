@@ -1,0 +1,5 @@
+[
+  { "name": "missing firstname", "payload": { "lastname": "X", "totalprice": 100, "depositpaid": true, "bookingdates": { "checkin": "2026-12-01", "checkout": "2026-12-05" } } },
+  { "name": "totalprice as numeric string (accepted by API)", "payload": { "firstname": "A", "lastname": "X", "totalprice": "abc", "depositpaid": true, "bookingdates": { "checkin": "2026-12-01", "checkout": "2026-12-05" } } },
+  { "name": "missing bookingdates", "payload": { "firstname": "A", "lastname": "X", "totalprice": 100, "depositpaid": true } }
+]
